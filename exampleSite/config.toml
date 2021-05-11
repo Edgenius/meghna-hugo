@@ -1,4 +1,4 @@
-baseURL = "https://heyi.com"
+baseURL = "https://vigorous-nightingale-a3e230.netlify.app/"
 disableLanguages = []
 disqusShortname = ""
 paginate = "6"
