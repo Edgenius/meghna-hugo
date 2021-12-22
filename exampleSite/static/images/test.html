@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+
+
+</head>
+<body>
+
+<div>This is test begin</div>
+<div class="plato-form-widget" data-options="id:frp6ttv16o6;width:100%;height:0;host:form.platoforms.com/"></div><div id="frp6ttv16o6-loading-msg"><p>Loading the Form...</p></div> <script type="text/javascript"> (function(d, v){ var s = d.getElementsByTagName(v)[0], p = s.parentNode, e = d.createElement(v); e.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'static.platoforms.com/assets/dist/formbuilder.js?v=15'; p.insertBefore(e, s); })(document, 'script'); </script>
+<div>This is test end</div>
+
+<button onclick="submitFormExt()">Submit form external</button >
+
+</body>
+<script>
+	function submitFormExt(){
+		document.getElementById('frp6ttv16o6').contentWindow.postMessage({
+			'event': 'submit_form'
+		}, '*');
+	}
+</script>
+
+</html>
+
